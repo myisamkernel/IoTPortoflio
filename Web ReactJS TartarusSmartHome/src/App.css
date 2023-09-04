@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loginBackground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #61dafb;
+}
+
+.form{
+  display:block;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.loginButtonContainer{
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+.loginButton{
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  color:white;
+  background-color: lightslategray;
+}
+
+.homeContainer{
+  display: inline;
+  
+}
+
+.sideNavBar {
+  border: solid 3px black;
+  display: flex;
+  flex-direction: column; /* To stack the items vertically */
+  background-color: #61dafb;
+  color: black;
+  font-size: large;
+  width: 110px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeContainer {
+  display: flex;
+  background-color: rgba(145, 230, 236, 0.568);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100vh;
+}
+
+.navBarLink{
+  list-style-type: none;
+  background-color: cadetblue;
+  margin:0;
+  padding:0;
+}
+
+.linkNav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.addDeviceForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.devicePanelContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100vh;
+}
+
+.log{
+  margin:5px;
+}
+
+.logBlock{
+  border:1px solid;
+  text-align: center;
+  margin: 10px;
+}
+
+.logContainer{
+  margin-left: auto;
+  justify-self: right;
+  border:1px solid;
+  height: 100%;
+  overflow: scroll;
+  width: 50%;
+}
+
+th{
+  border:solid 1px;
+}
+
+.devicePanelForm{
+
+  align-self: center;
+  justify-self: center;
+  margin-left: auto;
+
+}
